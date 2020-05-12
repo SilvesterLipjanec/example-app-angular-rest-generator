@@ -8,6 +8,14 @@ After installing generator with `npm i angular-rest-generator` there was created
 
 `GatewayModule` was imported into `AppModule` and service `GatewayService` is used is `AppComponent`. 
 
+# Installation
+
+Download and run in root directory:
+```bash
+npm install
+npm run start-open
+```
+
 # Usage 
 
 * Choose method from dropdown list
