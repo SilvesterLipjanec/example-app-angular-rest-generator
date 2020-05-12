@@ -1,0 +1,8 @@
+{
+  "outputDir": "./src/app/gateway",
+  "apiSpec": "./api-specs-test/openapi.yaml",
+  "parameterTypeSuffix": "Parameters",
+  "retryFailedRequest": 2,
+  "forceGeneration": true,
+  "parametersAsObject": true
+}
