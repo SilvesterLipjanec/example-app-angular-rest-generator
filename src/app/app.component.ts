@@ -96,6 +96,8 @@ export class AppComponent {
 
     /**
      * Function detects parameters of gateway service methods.
+     * Inspired by answer from Stack Overflow https://stackoverflow.com/questions/1007981/how-to-get-function-parameter-names-values-dynamically
+     * author Jack Allan (https://stackoverflow.com/users/315017/jack-allan)
      * @param func method name.
      * @returns list of parameter names.
      */
@@ -192,6 +194,8 @@ export class AppComponent {
 
     /**
      * Function parse method implementation as string.
+     * Inspired by answer from Stack Overflow https://stackoverflow.com/questions/1007981/how-to-get-function-parameter-names-values-dynamically
+     * author Jack Allan (https://stackoverflow.com/users/315017/jack-allan)
      */
     parseMethodImplementation(): void {
         var STRIP_COMMENTS = /((\/\/.*$)|(\/\*[\s\S]*?\*\/))/mg;
